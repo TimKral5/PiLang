@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiLangLib", "PiLangLib\PiLangLib.csproj", "{CEDC4213-DCEC-47AD-A2C2-E613436DDFE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiLang", "PiLang\PiLang.csproj", "{308AA3A8-62A1-49B2-B2F0-5967C07D43BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDC4213-DCEC-47AD-A2C2-E613436DDFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDC4213-DCEC-47AD-A2C2-E613436DDFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDC4213-DCEC-47AD-A2C2-E613436DDFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDC4213-DCEC-47AD-A2C2-E613436DDFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308AA3A8-62A1-49B2-B2F0-5967C07D43BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308AA3A8-62A1-49B2-B2F0-5967C07D43BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308AA3A8-62A1-49B2-B2F0-5967C07D43BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308AA3A8-62A1-49B2-B2F0-5967C07D43BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80DB76FE-02F9-4E1D-AE49-F0E112E4DDA3}
+	EndGlobalSection
+EndGlobal
