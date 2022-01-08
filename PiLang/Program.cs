@@ -16,9 +16,10 @@ namespace PiLang
 			AnsiConsole.Write(new FigletText(font1, "~~~~~~").Centered());
 			AnsiConsole.Write(new Rule("Result").Centered());
 
-			string test = "15 * 4 + 5";
-			char[] chars = Converter.Convert(test);
-			float[] res = Calculator.Calculate(Converter.GetOpsAndNums(chars));
+			string test = "15 * (4 * (3 + 5))";
+			SectionSplitter.Split(test);
+			//char[] chars = Converter.Convert(test);
+			//float[] res = Calculator.Calculate(Converter.GetOpsAndNums(chars));
 
 			Console.ReadLine();
 		}

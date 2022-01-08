@@ -11,7 +11,7 @@ namespace PiLangLib
 
 		public static char[] digits = Converter.digits;
 
-		public static float[] Calculate((char[], float[], (int, (int, int))[]) calculation)
+		public static float Calculate((char[], float[], (int, (int, int))[]) calculation)
 		{
 
 			char[] ops = calculation.Item1;
@@ -96,7 +96,7 @@ namespace PiLangLib
 			ops.Each((char op) => Console.Write(op + " "));
 			Console.WriteLine("]");
 
-			return numbers;
+			return numbers[0];
 		}
 	}
 }
